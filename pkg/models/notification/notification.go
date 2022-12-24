@@ -38,39 +38,43 @@ func FromRaw(raw []interface{}) (n *Notification, err error) {
 		return
 	}
 
-	nraw := raw[4].([]interface{})
-	if len(nraw) == 0 {
-		return
-	}
-
-	switch n.Type {
-	case "on-req":
-		// will be a set of orders if created via rest
-		// this is to accommodate OCO orders
-		if _, isSnapshot := nraw[0].([]interface{}); isSnapshot {
-			n.NotifyInfo, err = order.SnapshotFromRaw(nraw)
+	switch typed := raw[4].(type) {
+	case []interface{}:
+		if len(typed) == 0 {
 			return
 		}
 
-		n.NotifyInfo, err = order.NewFromRaw(nraw)
-		return
-	case "ou-req", "ou":
-		n.NotifyInfo, err = order.UpdateFromRaw(nraw)
-		return
-	case "oc-req":
-		n.NotifyInfo, err = order.CancelFromRaw(nraw)
-		return
-	case "fon-req":
-		n.NotifyInfo, err = fundingoffer.NewFromRaw(nraw)
-		return
-	case "foc-req":
-		n.NotifyInfo, err = fundingoffer.CancelFromRaw(nraw)
-		return
-	case "pm-req", "pc":
-		n.NotifyInfo, err = position.CancelFromRaw(nraw)
-		return
-	default:
-		n.NotifyInfo = raw[4]
+		switch n.Type {
+		case "on-req":
+			// will be a set of orders if created via rest
+			// this is to accommodate OCO orders
+			if _, isSnapshot := typed[0].([]interface{}); isSnapshot {
+				n.NotifyInfo, err = order.SnapshotFromRaw(typed)
+				return
+			}
+
+			n.NotifyInfo, err = order.NewFromRaw(typed)
+			return
+		case "ou-req", "ou":
+			n.NotifyInfo, err = order.UpdateFromRaw(typed)
+			return
+		case "oc-req":
+			n.NotifyInfo, err = order.CancelFromRaw(typed)
+			return
+		case "fon-req":
+			n.NotifyInfo, err = fundingoffer.NewFromRaw(typed)
+			return
+		case "foc-req":
+			n.NotifyInfo, err = fundingoffer.CancelFromRaw(typed)
+			return
+		case "pm-req", "pc":
+			n.NotifyInfo, err = position.CancelFromRaw(typed)
+			return
+		default:
+			n.NotifyInfo = raw[4]
+		}
+	case map[string]interface{}:
+
 	}
 
 	return
