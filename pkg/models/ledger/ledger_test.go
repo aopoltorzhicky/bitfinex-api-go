@@ -3,7 +3,7 @@ package ledger_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/ledger"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/ledger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

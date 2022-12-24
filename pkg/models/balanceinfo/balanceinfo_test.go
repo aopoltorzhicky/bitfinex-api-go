@@ -3,7 +3,7 @@ package balanceinfo_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/balanceinfo"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/balanceinfo"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

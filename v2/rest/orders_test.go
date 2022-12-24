@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/order"
-	"github.com/bitfinexcom/bitfinex-api-go/v2"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/order"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

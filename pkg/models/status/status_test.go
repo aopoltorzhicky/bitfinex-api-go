@@ -3,7 +3,7 @@ package status_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/status"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/status"
 	"github.com/stretchr/testify/assert"
 )
 

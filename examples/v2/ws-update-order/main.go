@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/order"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/websocket"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/order"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/websocket"
 )
 
 func SubmitTestOrder(c *websocket.Client) {

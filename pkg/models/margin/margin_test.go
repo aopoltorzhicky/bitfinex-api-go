@@ -3,7 +3,7 @@ package margin_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/margin"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/margin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

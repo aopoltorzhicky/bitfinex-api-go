@@ -3,9 +3,9 @@ package rest
 import (
 	"strconv"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/notification"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/wallet"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/notification"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/wallet"
 )
 
 // WalletService manages data flow for the Wallet API endpoint

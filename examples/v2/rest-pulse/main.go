@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/pulse"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/pulse"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/rest"
 	"github.com/davecgh/go-spew/spew"
 )
 

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/event"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/mux/client"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/mux/msg"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/event"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/mux/client"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/mux/msg"
 )
 
 // Mux will manage all connections and subscriptions. Will check if subscriptions

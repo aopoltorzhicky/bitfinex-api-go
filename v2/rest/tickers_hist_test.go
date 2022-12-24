@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/tickerhist"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/tickerhist"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

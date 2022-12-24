@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/rest"
 	"github.com/davecgh/go-spew/spew"
 )
 

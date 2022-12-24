@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2/websocket"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/websocket"
 )
 
 // does not work for reconnect tests

@@ -3,19 +3,19 @@ package main
 import (
 	"log"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/balanceinfo"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/event"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingcredit"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingloan"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingoffer"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingtrade"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/margin"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/notification"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/order"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/position"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/trades"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/wallet"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/mux"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/balanceinfo"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/event"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/fundingcredit"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/fundingloan"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/fundingoffer"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/fundingtrade"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/margin"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/notification"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/order"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/position"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/trades"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/wallet"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/mux"
 )
 
 func main() {

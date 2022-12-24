@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/convert"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
 )
 
 // BookAction represents a new/update or removal for a book entry.

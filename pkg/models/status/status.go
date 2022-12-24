@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/convert"
 )
 
 // FromWSRaw - based on condition will return snapshot or single record of

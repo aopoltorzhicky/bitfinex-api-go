@@ -3,8 +3,8 @@ package candle_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/candle"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/candle"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

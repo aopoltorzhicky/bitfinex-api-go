@@ -3,7 +3,7 @@ package convert_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/convert"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

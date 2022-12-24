@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/balanceinfo"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/wallet"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/websocket"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/balanceinfo"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/wallet"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/websocket"
 )
 
 func TestAuthentication(t *testing.T) {

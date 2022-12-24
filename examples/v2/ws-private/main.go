@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2/websocket"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/websocket"
 )
 
 // Set BFX_API_KEY and BFX_API_SECRET as :

@@ -3,7 +3,7 @@ package balanceinfo
 import (
 	"fmt"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/convert"
 )
 
 type BalanceInfo struct {

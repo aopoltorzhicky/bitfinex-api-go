@@ -3,7 +3,7 @@ package trade_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/trade"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/trade"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

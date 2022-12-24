@@ -3,7 +3,7 @@ package rest
 import (
 	"path"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
+	"github.com/aopoltorzhicky/bitfinex-api-go/pkg/models/common"
 )
 
 // OrderService manages data flow for the Order API endpoint

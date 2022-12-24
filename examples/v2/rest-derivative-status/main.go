@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/aopoltorzhicky/bitfinex-api-go/v2/rest"
 	"log"
 )
-
 
 func main() {
 	c := rest.NewClient()
@@ -15,4 +14,3 @@ func main() {
 	}
 	fmt.Println(pLStats)
 }
-
